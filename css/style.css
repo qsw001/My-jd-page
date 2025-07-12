@@ -51,7 +51,6 @@
     text-align: center;
     line-height: 300px;
     color: white;
-    /* padding 去掉，因为外面有 container 控制 */
 }
 
 /* 页脚区域 */
