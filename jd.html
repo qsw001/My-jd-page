@@ -4,31 +4,237 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>仿照京东页面</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/top-nav-style.css">
+    <link rel="stylesheet" href="css/search-bar.css">
+    <link rel="stylesheet" href="css/main-content.css">
+    <link rel="stylesheet" href="css/products.css">
 </head>
 
 <body>
+
     <!-- 顶部导航 -->
-    <div class="top-nav">顶部导航</div>
+    <div class="top-nav">
+        <ul class="first-ul">
+            <li class="ls-one">京东首页</li>
+            <li class="top-region">中国大陆版</li>
+            <li class="hello">你好,请登陆</li>
+            <li class="change">切换至企业版</li>
+        </ul>
+        <ul class="second-ul">
+            <li class="shopping-car">购物车</li>
+            <li class="my-orders">我的订单</li>
+            <li class="my-jd">我的京东</li>
+            <li class="business-procurement">企业采购</li>
+            <li class="seller-services">商家服务</li>
+            <li class="site-navigation">网站导航</li>
+            <li class="jd-mobile-app">手机京东</li>
+        </ul>   
+    </div>
+
+    <div class="hover-popup" style="display: none;">我是弹窗</div>
 
     <!-- 搜索栏 -->
-    <div class="search-bar">搜索区域</div>
+    <div class="search-bar">
+        <img class="jd-pic" src="resources/0742847dfed41e81.png" alt="加载失败">
+        <div class="middle-block">
+            <div class="search-father">
+                <input type="text" placeholder="搜索">
+                <img src="resources/6ee6489b504e48fe84496f2e5b7e6071.png" alt="加载失败" class="image">
+            </div>
+            <ul class="content">
+                <li class="first">除湿器</li>
+                <li>空气净化器</li>
+                <li>手机通讯</li>
+                <li>福临门大米</li>
+                <li>油烟机灶具套装</li>
+                <li>小天鹅洗衣机</li>
+                <li>网络机顶盒</li>
+                <li>行车记录仪</li>
+            </ul>
+        </div>
+        <div class="shopping-car">购物车</div>  
+    </div>
+
+
+
 
     <!-- 主体内容 -->
     <div class="main-content">
-        <div class="banner">
-            <div class="banner-item">模块1</div>
-            <div class="banner-item">模块2</div>
-            <div class="banner-item">模块3</div>
-            <div class="banner-item">模块4</div>
+         <div class="left-item">
+            <ul class="content-ul">
+                <li>家用电器</li>
+                <li>手机 / 运营商 / 数码</li>
+                <li>电脑 / 办公 / 文具用品</li>
+                <li>家居 / 家具 / 家装 / 厨具</li>
+                <li>男装 / 女装 / 童装 / 内衣</li>
+                <li>美妆 / 个护清洁 / 宠物</li>
+                <li>女鞋 / 箱包 / 钟表 / 珠宝</li>
+                <li>男鞋 / 运动 / 户外</li>
+                <li>母婴 / 玩具乐器</li>
+                <li>食品 / 酒类 / 生鲜 / 特产</li>
+                <li>艺术 / 礼品鲜花 / 农牧园艺</li>
+                <li>图书 / 文娱 / 教育 / 电子书</li>
+                <li>图书 / 文娱 / 教育 / 电子书</li>
+                <li>图书 / 文娱 / 教育 / 电子书</li>
+                <li>图书 / 文娱 / 教育 / 电子书</li>
+            </ul>
         </div>
-        <div class="products">商品推荐</div>
+        <div class="middle-item">
+            <img class="carousel" src="resources/guanggao.png" alt="加载失败">
+            <div class="bottom-block">
+                <a href="#1">
+                    <img class="i1" src="resources/guanggao2.png" alt="加载失败">
+                </a>
+                <a href="#2">
+                    <img class="i2" src="resources/guanggao3.png" alt="加载失败">
+                </a>
+            </div>
+        </div>
+        <div class="right-item">
+            <div class="first">
+                <img class="jd-pic" src="resources/mainpage.png" alt="图片加载失败">
+                <div class="doc">HI~欢迎来到京东!</div>
+            </div>
+            <div class="second">
+                <h4>中国特讯</h4>
+                京东全球运费说明<br>
+                全球首后业务支付问题<br>
+                京东全球售自营商品售后说明
+            </div>
+            <div class="third">
+                <div>
+                    <img src="resources/pic1.png" alt="图片加载失败">
+                    <p>客服服务</p>
+                </div>
+                <div>
+                    <img src="resources/pic2.png" alt="图片加载失败">
+                    <p>物流服务</p>
+                </div>
+                <div>
+                    <img src="resources/pic3.png" alt="图片加载失败">
+                    <p>售后政策</p>
+                </div>
+            </div>
+            <div class="fouth">
+                <h4>国际支付</h4>
+                <img src="resources/pay.png" alt="图片加载失败">
+            </div>
+        </div>
     </div>
+
+
+    <!-- 商品推荐 -->
+    <div class="products">
+        <h1>
+            商品推荐
+        </h1>
+        <div class="pics">
+            <div class="responsive">
+                <div class="img">
+                    <img src="resources/pro1.png">
+                    <div class="desc">德尔玛（Deerma）布艺清洗机BY100 S多功能清洁机
+                        <p>599$</p>
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <img src="resources/粘贴的图像 (10).png">
+                    <div class="desc">德尔玛（Deerma）布艺清洗机BY100 S多功能清洁机<p>599$</p></div>
+
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <img src="resources/粘贴的图像 (11).png">
+                    <div class="desc">德尔玛（Deerma）布艺清洗机BY100 S多功能清洁机<p>599$</p></div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <img src="resources/粘贴的图像 (12).png">
+                    <div class="desc">德尔玛（Deerma）布艺清洗机BY100 S多功能清洁机<p>599$</p></div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <img src="resources/粘贴的图像 (13).png">
+                    <div class="desc">德尔玛（Deerma）布艺清洗机BY100 S多功能清洁机<p>599$</p></div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <img src="resources/粘贴的图像 (14).png">
+                    <div class="desc">德尔玛（Deerma）布艺清洗机BY100 S多功能清洁机<p>599$</p></div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <img src="resources/粘贴的图像 (2).png">
+                    <div class="desc">德尔玛（Deerma）布艺清洗机BY100 S多功能清洁机<p>599$</p></div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <img src="resources/粘贴的图像 (3).png">
+                    <div class="desc">德尔玛（Deerma）布艺清洗机BY100 S多功能清洁机<p>599$</p></div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <img src="resources/粘贴的图像 (4).png">
+                    <div class="desc">德尔玛（Deerma）布艺清洗机BY100 S多功能清洁机<p>599$</p></div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <img src="resources/粘贴的图像 (5).png">
+                    <div class="desc">德尔玛（Deerma）布艺清洗机BY100 S多功能清洁机<p>599$</p></div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <img src="resources/粘贴的图像 (7).png">
+                    <div class="desc">德尔玛（Deerma）布艺清洗机BY100 S多功能清洁机<p>599$</p></div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <img src="resources/粘贴的图像 (8).png">
+                    <div class="desc">德尔玛（Deerma）布艺清洗机BY100 S多功能清洁机<p>599$</p></div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <img src="resources/粘贴的图像 (9).png">
+                    <div class="desc">德尔玛（Deerma）布艺清洗机BY100 S多功能清洁机<p>599$</p></div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <img src="resources/粘贴的图像 (10).png">
+                    <div class="desc">德尔玛（Deerma）布艺清洗机BY100 S多功能清洁机<p>599$</p></div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <img src="resources/粘贴的图像 (11).png">
+                    <div class="desc">德尔玛（Deerma）布艺清洗机BY100 S多功能清洁机<p>599$</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
     <!-- 底部 -->
     <div class="foot">
         <div class="footer">页面底部</div>
     </div>
     
+
+
+    <script src="js/main-content-ul.js"></script>
 </body>
 </html>

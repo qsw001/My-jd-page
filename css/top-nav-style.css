@@ -1,0 +1,72 @@
+
+/*                                     顶部导航                                   */
+.top-nav {
+    display: flex;
+    background-color: aqua;
+    padding: 0 0 5px 0;
+    margin: 0;
+    font-size: 15px;
+    background-color:white;
+    height: 20px;
+    width: 100%;
+    color: rgb(33, 30, 30);
+    border-bottom: 1px solid;
+}
+
+.top-nav li:hover{
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+}
+
+/*                     左边的无序列表                  */
+.top-nav .first-ul{
+    display: inline-block;
+    margin: 0;
+    width: 50%;
+    padding: 0 0 0 10%;
+    list-style: none;
+}
+
+.top-nav .first-ul li{
+    display: inline-block;
+}
+
+.top-nav .first-ul .ls-one{
+    margin: 0 10px 0 0;
+}
+
+.top-nav .first-ul .top-region{
+    padding: 0 15px 0 0;
+    border-right: rgba(0, 0, 0, .2) solid 2px;
+}
+
+
+.top-nav .first-ul .hello{
+    padding: 0 10px 0 10px;
+    border-right: rgba(0, 0, 0, .2) solid 2px;
+}
+
+.top-nav .first-ul .change{
+    padding: 0 5px 0 10px;
+}
+
+/* 右边的无序列表 */
+.top-nav .second-ul{
+    display: inline-block;
+    margin: 0;
+    width: 50%;
+    padding: 0 0 0 10%;
+    list-style: none;
+}
+
+.top-nav .second-ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.top-nav .second-ul li:hover{
+    border-left: rgba(0, 0, 0, .2) 1px solid;
+    border-right: rgba(0, 0, 0, .2) 1px solid;
+}
+

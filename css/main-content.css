@@ -1,0 +1,165 @@
+/* 主体内容背景 */
+.main-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f5f5;
+    padding: 0 300px;
+    height: 500px;
+    margin: 0 0 0 0;
+}
+
+.left-item {
+    overflow: auto;
+    background-color:white;
+    color: white;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.main-content .left-item .content-ul{
+    color: rgb(33, 30, 30);
+    list-style: none;
+
+}
+
+.main-content .left-item .content-ul li{
+    padding: 8px;
+    text-align: left;
+}
+
+.main-content .left-item .content-ul li:hover{
+    background-color: rgb(192, 203, 191);
+}
+
+
+/* 弹窗层样式 */
+.hover-popup {
+  position: absolute;
+  width: 700px;
+  height: 450px;
+  top: 230px;        
+  left: 50%;         
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 15px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  z-index: 999;      
+  pointer-events: none; 
+}
+
+/*                         中间布局                   */
+.middle-item {
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    color: white;
+    flex: 2;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.middle-item .carousel{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.middle-item .bottom-block{
+    display: flex;
+    flex-direction: row;
+}
+
+.middle-item .bottom-block .i1{
+    width: 100%;
+    height: 120%;
+    border-bottom-left-radius: 15px;
+}
+
+.middle-item .bottom-block .i1:hover{
+    opacity: 0.8;
+}
+
+.middle-item .bottom-block .i2{
+    width: 100%;
+    height: 120%;
+    border-bottom-right-radius: 15px;
+}
+
+.middle-item .bottom-block .i2:hover{
+    opacity: 0.8;
+}
+
+/*                      右边布局                        */
+
+.right-item {
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    color: white;
+    flex: 1;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+
+.right-item .first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.right-item .first .doc{
+    color:rgb(33, 30, 30);
+    font-weight: bold;
+}
+
+.right-item .second{
+    color: rgb(33, 30, 30);
+    margin-right:auto;
+    transform: translateX(40px);
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.right-item .third{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.right-item .third div{
+    text-align: center;
+}
+
+.right-item .third img{
+    margin: 0;
+    width: 50px;
+    cursor: pointer;
+}
+
+.right-item .third img:hover{
+    opacity: 0.8;
+} 
+
+.right-item .third p{
+    color: rgb(33, 30, 30);
+    margin-top:0;
+}
+
+.right-item .fouth h4{
+    color: rgb(33, 30, 30);
+    margin-right: auto;
+    transform: translateX(40px);
+}
+
+.right-item .fouth img{
+    transform: translateX(20px);
+    transform: translateY(-10px);
+}
+

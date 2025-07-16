@@ -1,0 +1,101 @@
+/* 搜索区域 */
+.search-bar {
+    display: flex;
+    background-color: #f5f5f5;
+    height: 200px;
+    color: black;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    position: sticky;
+    z-index:2;
+    top: 0;
+}
+
+/*         京东图片          */
+.search-bar .jd-pic{
+    padding: 40px 10px 40px 300px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+/*         中间部分          */
+.search-bar .middle-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 10px; 
+    height: 100%; 
+    flex: 1;
+    max-width: 800px;
+}
+
+.search-bar .middle-block .search-father{
+    position: relative;
+    display: flex;
+    align-items: center; 
+}
+
+.search-bar .middle-block input[type=text]{
+    max-width: 1000px;
+    width: 800px;
+    padding: 12px 50px 12px 20px;
+    margin: 0 10px 0 50px; 
+    border: red solid 2px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.search-bar .middle-block .image{
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    height: 30px;
+    width: 60px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-bar .middle-block .content{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: flex-start;
+}
+
+.search-bar .middle-block .content li {
+    margin: 0 16px;
+    font-size: 13px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.search-bar .middle-block .content .first{
+    margin: 0 13px 0 0;
+}
+
+.search-bar .middle-block .content li:hover {
+    color: red;
+}
+
+/*          右侧部分             */
+
+.search-bar .shopping-car{
+    margin: 50px 0 0 10px;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.search-bar .shopping-car:hover{
+    background-color: #ccc;
+}
